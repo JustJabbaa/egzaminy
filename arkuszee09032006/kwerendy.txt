@@ -1,0 +1,4 @@
+1. SELECT `zadania`.`miesiac`, `zadania`.`rok`, `zadania`.`dataZadania` FROM `zadania` WHERE `zadania`.`dataZadania` = '2020-07-01';
+2. SELECT `zadania`.`dataZadania`, `zadania`.`wpis` FROM `zadania` WHERE `zadania`.`miesiac` = 'lipiec';
+3. SELECT DISTINCT `zadania`.`miesiac` FROM `zadania` WHERE `zadania`.`miesiac` LIKE 'l%';
+4. UPDATE `zadania` SET `wpis` = 'Wycieczka: jezioro' WHERE `zadania`.`dataZadania` = '2020-07-13';

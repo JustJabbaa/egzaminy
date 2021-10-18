@@ -1,0 +1,36 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+section {
+     background-color:#AFEEEE;
+     width:150px;
+     height:100px;
+     margin: 3px;
+     border: 1px solid black;
+     float:left;
+}
+footer {
+    background-color: #483D8B;
+    color:white;
+    padding: 10px;
+    float:left;
+    width:100%;
+}
+h5 {
+    text-align:center;
+}
+.pierwszy {
+    background-color:#483D8B;
+    height: 150px;
+    width: 30%;
+    float:left;
+}
+.drugi {
+    background-color:#483D8B;
+    height:150px;
+    width:70%;
+    float:left;
+    color:white;
+}
